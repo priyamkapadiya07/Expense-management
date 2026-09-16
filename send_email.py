@@ -10,7 +10,7 @@ class EmailSender:
 
     def send_email(self):
         try:
-            yag = yagmail.SMTP(self.sender_email, "nxrx ergs eegb bpkx")
+            yag = yagmail.SMTP(self.sender_email, "enter password")
             yag.send(
                 to=input("Enter receiver email : "),
                 subject=self.subject,
